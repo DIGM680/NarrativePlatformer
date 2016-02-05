@@ -22,5 +22,6 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
             Debug.Log("it's a pearl");
         }
         Debug.Log("statue responded");
+        platform.transform.position = new Vector3(20, -27,0);
     }
 }
