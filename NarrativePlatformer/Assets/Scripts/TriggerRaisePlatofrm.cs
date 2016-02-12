@@ -19,14 +19,14 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("viewSphere") && triggerCount < 2) {
+        if (other.gameObject.layer == LayerMask.NameToLayer("pearl") && triggerCount < 2) {
             Debug.Log("it's a pearl");
             block.SetActive(false);
             statue.SetActive(true);
         }
 
 
-        //Debug.Log("statue responded");
+        Debug.Log("statue responded");
         //platform.transform.position = new Vector3(20, -27,0);
 
     }
