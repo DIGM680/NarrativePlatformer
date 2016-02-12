@@ -3,7 +3,8 @@ using System.Collections;
 
 public class TriggerRaisePlatofrm : MonoBehaviour {
     private int triggerCount;
-    public GameObject platform;
+    public GameObject block;
+    public GameObject statue;
     public float trnaformUp;
 
     // Use this for initialization
@@ -18,10 +19,15 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("pearl") && triggerCount < 2) {
+        if (other.gameObject.layer == LayerMask.NameToLayer("viewSphere") && triggerCount < 2) {
             Debug.Log("it's a pearl");
+            block.SetActive(false);
+            statue.SetActive(true);
         }
-        Debug.Log("statue responded");
-        platform.transform.position = new Vector3(20, -27,0);
+
+
+        //Debug.Log("statue responded");
+        //platform.transform.position = new Vector3(20, -27,0);
+
     }
 }

@@ -10,7 +10,11 @@ public class triggerController : MonoBehaviour {
 	private int timer = 0;
 	public int spawnTime = 40;
 	private Vector3 pos;
-	// Use this for initialization
+    // Use this for initialization
+
+    public bool justOnce = false;
+    [SerializeField]private bool completed = false;
+
 	void Start () {
 		if (sound)
 			soundSource = GetComponent<AudioSource> ();
@@ -25,15 +29,24 @@ public class triggerController : MonoBehaviour {
 			soundSource.Pause ();
 	}
 	void FixedUpdate () {
-		if (instantiate && active) {
+
+		if (instantiate && active && !completed) {
 			timer = timer + 1;
 			if (timer >= spawnTime) {
 				timer = 0;
 				pos = transform.position;
 				pos.z = -3f;
 				Instantiate (spawn, pos, Quaternion.identity);
-			}
-		}
+
+                if (justOnce)
+                {
+                    completed = true;
+                }
+            }
+
+           
+        }
+        
 	}
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.layer == LayerMask.NameToLayer("viewSphere")){
