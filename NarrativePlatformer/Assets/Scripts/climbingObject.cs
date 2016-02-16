@@ -19,11 +19,11 @@ public class climbingObject : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		charHeight = character.transform.position.y;
-		if (charHeight >= 1.0f && currentPos.y < endPos) {
+		if (charHeight >= 1.0f && charHeight <= distance) {
 			currentPos.y = startPos + (charHeight * percentage);
 			transform.position = currentPos;
 		}
-		else if (currentPos.y >= endPos) {
+		else if (charHeight > distance) {
 			currentPos.y = endPos;
 			transform.position = currentPos;
 		}

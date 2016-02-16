@@ -2,20 +2,28 @@
 using System.Collections;
 
 public class triggerController : MonoBehaviour {
-	private bool active = false;
+	public bool active = false;
 	public bool sound = false;
+	public bool particle = false;
+	private ParticleSystem partSource;
 	private AudioSource soundSource;
 	public bool instantiate = false;
 	public Transform spawn;
 	private int timer = 0;
 	public int spawnTime = 40;
 	private Vector3 pos;
+
     // Use this for initialization
 
     public bool justOnce = false;
     [SerializeField]private bool completed = false;
 
 	void Start () {
+		if (particle) {
+			partSource = GetComponent<ParticleSystem> ();
+			var em = partSource.emission;
+			em.enabled = false;
+		}
 		if (sound)
 			soundSource = GetComponent<AudioSource> ();
 	}
@@ -25,8 +33,16 @@ public class triggerController : MonoBehaviour {
 		if (sound && active) 
 		    if(!soundSource.isPlaying)
 				soundSource.Play ();
-		if (sound && !active)
+		else if (sound && !active)
 			soundSource.Pause ();
+		if (particle && active){
+			var em = partSource.emission;
+			em.enabled = true;
+		}
+		else if (particle && !active){
+			var em = partSource.emission;
+			em.enabled = false;
+		}
 	}
 	void FixedUpdate () {
 
