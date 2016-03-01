@@ -1117,9 +1117,9 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 4004201b3be48924bbef3068b204473e, type: 3}
   - {fileID: 7400000, guid: bf45aa4b53dd59f4c8a266caaad4e3c2, type: 3}
-  - {fileID: 7400000, guid: be909c5157e68074d8812c13ffe63c68, type: 3}
-  - {fileID: 7400000, guid: ac429ad351ba4b042b4c1df800ae42a8, type: 3}
-  - {fileID: 7400000, guid: dd4e3604fbf1a1345b80a86ae8779252, type: 3}
+  - {fileID: 7400000, guid: 661e97fc9572649488bca4a9a93e6aa9, type: 3}
+  - {fileID: 7400000, guid: b6b903a17b8ea4e34873ab2b7335d09c, type: 3}
+  - {fileID: 7400000, guid: ed3e4a33f21264aad81f94d15c9a873b, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2127,6 +2127,18 @@ Prefab:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 661e97fc9572649488bca4a9a93e6aa9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Animations.Array.data[3]
+      value: 
+      objectReference: {fileID: 7400000, guid: b6b903a17b8ea4e34873ab2b7335d09c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Animations.Array.data[4]
+      value: 
+      objectReference: {fileID: 7400000, guid: ed3e4a33f21264aad81f94d15c9a873b, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 143728}
