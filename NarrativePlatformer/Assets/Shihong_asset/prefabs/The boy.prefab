@@ -992,9 +992,6 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 4004201b3be48924bbef3068b204473e, type: 3}
   - {fileID: 7400000, guid: bf45aa4b53dd59f4c8a266caaad4e3c2, type: 3}
-  - {fileID: 7400000, guid: bf45aa4b53dd59f4c8a266caaad4e3c2, type: 3}
-  - {fileID: 7400000, guid: bf45aa4b53dd59f4c8a266caaad4e3c2, type: 3}
-  - {fileID: 7400000, guid: bf45aa4b53dd59f4c8a266caaad4e3c2, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1939,10 +1936,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_Animations.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalRotation.y
       value: -0.7071068

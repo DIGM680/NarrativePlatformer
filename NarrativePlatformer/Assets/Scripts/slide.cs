@@ -18,9 +18,15 @@ public class slide : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D Player)
     {
-        foreach (GameObject rock in rocks) {
-            Rigidbody2D rigidBody = rock.GetComponent<Rigidbody2D>();
-            rigidBody.isKinematic = false;
+        if (Player.gameObject.layer == LayerMask.NameToLayer("character"))
+        {
+            foreach (GameObject rock in rocks)
+            {
+                Rigidbody2D rigidBody = rock.GetComponent<Rigidbody2D>();
+                rigidBody.isKinematic = false;
             }
+        }
+
+
     }
 }

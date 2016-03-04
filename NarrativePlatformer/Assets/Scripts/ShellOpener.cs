@@ -10,6 +10,9 @@ public class ShellOpener : MonoBehaviour {
     [SerializeField]
     private bool completed = false;
 
+    public GameObject obj;
+    public GameObject obj2;
+
     void Start()
     {
     }
@@ -27,6 +30,9 @@ public class ShellOpener : MonoBehaviour {
             upperShell.transform.Rotate(Vector3.forward, -20f);
 
             pearlIn.SetActive(true);
+
+            obj.SetActive(true);
+            obj2.SetActive(true);
 
             if (justOnce)
             {

@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 4004201b3be48924bbef3068b204473e
+timeCreated: 1454986673
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bn_Chest
+    100002: Bn_Head
+    100004: Bn_Head_End
+    100006: Bn_L_Ankle
+    100008: Bn_L_Foot
+    100010: Bn_L_Foot_End
+    100012: Bn_L_Forearm
+    100014: Bn_L_Hand
+    100016: Bn_L_Hand_End
+    100018: Bn_L_Shin
+    100020: Bn_L_Shoulder
+    100022: Bn_L_Thigh
+    100024: Bn_Lumbar
+    100026: Bn_R_Ankle
+    100028: Bn_R_Foot
+    100030: Bn_R_Foot_End
+    100032: Bn_R_Forearm
+    100034: Bn_R_Hand
+    100036: Bn_R_Hand_End
+    100038: Bn_R_Shin
+    100040: Bn_R_Shoulder
+    100042: Bn_R_Thigh
+    100044: Bn_Root
+    100046: Bn_Sacrum_End
+    100048: Bn_Stomach
+    100050: //RootNode
+    100052: Control_Chest
+    100054: Control_Head
+    100056: Control_Head_End
+    100058: Control_Lumbar
+    100060: Control_Root
+    100062: Control_Sacrum_End
+    100064: Control_Stomach
+    100066: LittleBoy
+    400000: Bn_Chest
+    400002: Bn_Head
+    400004: Bn_Head_End
+    400006: Bn_L_Ankle
+    400008: Bn_L_Foot
+    400010: Bn_L_Foot_End
+    400012: Bn_L_Forearm
+    400014: Bn_L_Hand
+    400016: Bn_L_Hand_End
+    400018: Bn_L_Shin
+    400020: Bn_L_Shoulder
+    400022: Bn_L_Thigh
+    400024: Bn_Lumbar
+    400026: Bn_R_Ankle
+    400028: Bn_R_Foot
+    400030: Bn_R_Foot_End
+    400032: Bn_R_Forearm
+    400034: Bn_R_Hand
+    400036: Bn_R_Hand_End
+    400038: Bn_R_Shin
+    400040: Bn_R_Shoulder
+    400042: Bn_R_Thigh
+    400044: Bn_Root
+    400046: Bn_Sacrum_End
+    400048: Bn_Stomach
+    400050: //RootNode
+    400052: Control_Chest
+    400054: Control_Head
+    400056: Control_Head_End
+    400058: Control_Lumbar
+    400060: Control_Root
+    400062: Control_Sacrum_End
+    400064: Control_Stomach
+    400066: LittleBoy
+    4300000: LittleBoy
+    7400000: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: LittleBoy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_Root
+        weight: 1
+      - path: Control_Root/Bn_Root
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_L_Thigh
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_L_Thigh/Bn_L_Shin
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_L_Thigh/Bn_L_Shin/Bn_L_Ankle
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_L_Thigh/Bn_L_Shin/Bn_L_Ankle/Bn_L_Foot
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_L_Thigh/Bn_L_Shin/Bn_L_Ankle/Bn_L_Foot/Bn_L_Foot_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_R_Thigh
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_R_Thigh/Bn_R_Shin
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_R_Thigh/Bn_R_Shin/Bn_R_Ankle
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_R_Thigh/Bn_R_Shin/Bn_R_Ankle/Bn_R_Foot
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Bn_Sacrum_End/Bn_R_Thigh/Bn_R_Shin/Bn_R_Ankle/Bn_R_Foot/Bn_R_Foot_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Bn_Lumbar
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Bn_Stomach
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_L_Shoulder
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_L_Shoulder/Bn_L_Forearm
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_L_Shoulder/Bn_L_Forearm/Bn_L_Hand
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_L_Shoulder/Bn_L_Forearm/Bn_L_Hand/Bn_L_Hand_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_R_Shoulder
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_R_Shoulder/Bn_R_Forearm
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_R_Shoulder/Bn_R_Forearm/Bn_R_Hand
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Bn_Chest/Bn_R_Shoulder/Bn_R_Forearm/Bn_R_Hand/Bn_R_Hand_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Control_Head
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Control_Head/Bn_Head
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Control_Head/Control_Head_End
+        weight: 1
+      - path: Control_Root/Control_Sacrum_End/Control_Lumbar/Control_Stomach/Control_Chest/Control_Head/Control_Head_End/Bn_Head_End
+        weight: 1
+      - path: LittleBoy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

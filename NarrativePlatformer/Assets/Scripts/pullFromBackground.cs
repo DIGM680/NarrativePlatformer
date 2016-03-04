@@ -3,6 +3,8 @@ using System.Collections;
 
 public class pullFromBackground : MonoBehaviour {
 
+    public GameObject obj;
+
     public GameObject backgroundObject;
     public Transform spawn;
 
@@ -33,6 +35,8 @@ public class pullFromBackground : MonoBehaviour {
             pos.z = -3f;
             Instantiate(spawn, pos, Quaternion.identity);
             backgroundObject.SetActive(false);
+
+            obj.SetActive(true);
 
             if (justOnce)
             {

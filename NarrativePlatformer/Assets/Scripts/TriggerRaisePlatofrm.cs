@@ -7,6 +7,7 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
     public GameObject statue;
     public float trnaformUp;
 
+
     // Use this for initialization
     void Start () {
         triggerCount = 0;
@@ -22,7 +23,9 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
         if (other.gameObject.layer == LayerMask.NameToLayer("pearl") && triggerCount < 2) {
             Debug.Log("it's a pearl");
             block.SetActive(false);
-            statue.SetActive(true);
+            //statue.SetActive(true);
+            Animator anim = statue.GetComponent<Animator>();
+            anim.Play("Open");
         }
 
 
