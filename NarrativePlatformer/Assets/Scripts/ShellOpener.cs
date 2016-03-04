@@ -9,12 +9,14 @@ public class ShellOpener : MonoBehaviour {
     public bool justOnce = false;
     [SerializeField]
     private bool completed = false;
+    private AudioSource audio;
 
     public GameObject obj;
     public GameObject obj2;
 
     void Start()
     {
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,8 @@ public class ShellOpener : MonoBehaviour {
 
             obj.SetActive(true);
             obj2.SetActive(true);
+
+            audio.Play();
 
             if (justOnce)
             {

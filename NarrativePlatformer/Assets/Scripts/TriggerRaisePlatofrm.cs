@@ -6,10 +6,11 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
     public GameObject block;
     public GameObject statue;
     public float trnaformUp;
-
+    private AudioSource audio;
 
     // Use this for initialization
     void Start () {
+        audio = GetComponent<AudioSource>();
         triggerCount = 0;
 	}
 	
@@ -26,6 +27,8 @@ public class TriggerRaisePlatofrm : MonoBehaviour {
             //statue.SetActive(true);
             Animator anim = statue.GetComponent<Animator>();
             anim.Play("Open");
+
+            audio.Play();
         }
 
 

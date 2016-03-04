@@ -7,7 +7,7 @@ public class characterControlScript : MonoBehaviour {
 	bool grounded = false;
 	public Transform groundCheck;
 	public float groundRadius = 0.2f;
-	private AudioSource jumpSound;
+	private AudioSource footSteps;
 	public LayerMask whatIsGround;
 	public float jumpForce = 700.0f;
 	Animator anim;
@@ -16,7 +16,7 @@ public class characterControlScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//anim = GetComponent<Animator> ();
-		//jumpSound = this.GetComponent<AudioSource> ();
+		footSteps = this.GetComponent<AudioSource> ();
 		respawn = transform.position;
 	}
 	
@@ -30,7 +30,10 @@ public class characterControlScript : MonoBehaviour {
 			float move = Input.GetAxis ("Horizontal");
 			//anim.SetFloat ("Speed", Mathf.Abs (move));
 			GetComponent<Rigidbody2D>().velocity = new Vector2 (move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
-
+			if (!(move == 0))
+				footSteps.Play ();
+			else
+				footSteps.Pause ();
 		}
 	}
 
@@ -40,7 +43,6 @@ public class characterControlScript : MonoBehaviour {
 			if (grounded && Input.GetKeyDown (KeyCode.Space)) {
 				//anim.SetBool ("Ground", false);
 				GetComponent<Rigidbody2D>().AddForce (new Vector2 (0, jumpForce));
-				//jumpSound.Play();
 			}
 		}
 		else {

@@ -36,7 +36,9 @@ public class triggerController2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (sound && active) 
+        if (justOnce && sound && active && !completed)
+            soundSource.Play();
+		else if (sound && active) 
 		    if(!soundSource.isPlaying)
 				soundSource.Play ();
 		else if (sound && !active)
