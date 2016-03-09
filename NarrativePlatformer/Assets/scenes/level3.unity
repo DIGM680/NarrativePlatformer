@@ -2376,7 +2376,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593672923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1399994, y: -19.60696, z: 1.5}
+  m_LocalPosition: {x: -2.1399994, y: -19.60696, z: 9.12}
   m_LocalScale: {x: 0.795002, y: 0.795002, z: 0.795002}
   m_Children:
   - {fileID: 806138758}
@@ -2664,7 +2664,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 640715687}
   - 114: {fileID: 640715690}
-  - 114: {fileID: 640715689}
   - 61: {fileID: 640715688}
   - 114: {fileID: 640715693}
   - 114: {fileID: 640715692}
@@ -2702,23 +2701,6 @@ BoxCollider2D:
   m_Offset: {x: 0.06259517, y: -0.000000042298694}
   serializedVersion: 2
   m_Size: {x: 0.36345872, y: 0.053321593}
---- !u!114 &640715689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 640715686}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cb52c8b7a8e7cd42a17106a3b4992a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rocks:
-  - {fileID: 679205269}
-  - {fileID: 1753814702}
-  - {fileID: 1750501684}
-  - {fileID: 380395955}
-  - {fileID: 1091823400}
 --- !u!114 &640715690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5636,7 +5618,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386146538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.73, y: -17.74, z: 2.17}
+  m_LocalPosition: {x: 7.73, y: -17.74, z: 6.69}
   m_LocalScale: {x: 1.3062708, y: 1.3062708, z: 1.3062708}
   m_Children:
   - {fileID: 916998021}

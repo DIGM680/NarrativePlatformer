@@ -71,7 +71,77 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body1
+        weight: 1
+      - path: body1/head
+        weight: 1
+      - path: body1/head/L_Wing_1
+        weight: 1
+      - path: body1/head/L_Wing_1/L_Wing_2
+        weight: 1
+      - path: body1/head/L_Wing_1/L_Wing_2/L_Wing_3
+        weight: 1
+      - path: body1/head/L_Wing_1/L_Wing_2/L_Wing_3/L_Wing_4
+        weight: 1
+      - path: body1/head/L_Wing_1/L_Wing_2/L_Wing_3/L_Wing_4/L_Wing_5
+        weight: 1
+      - path: body1/head/L_Wing_1/L_Wing_2/L_Wing_3/L_Wing_4/L_Wing_5/L_Wing_6
+        weight: 1
+      - path: body1/head/mouth1
+        weight: 1
+      - path: body1/head/mouth1/mouth2
+        weight: 1
+      - path: body1/head/R_Wing_1
+        weight: 1
+      - path: body1/head/R_Wing_1/R_Wing_2
+        weight: 1
+      - path: body1/head/R_Wing_1/R_Wing_2/R_Wing_3
+        weight: 1
+      - path: body1/head/R_Wing_1/R_Wing_2/R_Wing_3/R_Wing_4
+        weight: 1
+      - path: body1/head/R_Wing_1/R_Wing_2/R_Wing_3/R_Wing_4/R_Wing_5
+        weight: 1
+      - path: body1/head/R_Wing_1/R_Wing_2/R_Wing_3/R_Wing_4/R_Wing_5/R_Wing_6
+        weight: 1
+      - path: body1/tail1
+        weight: 1
+      - path: body1/tail1/tail2
+        weight: 1
+      - path: body1/tail1/tail2/tail3
+        weight: 1
+      - path: pCube1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
