@@ -103,8 +103,8 @@ ModelImporter:
       name: InAir
       takeName: Take 001
       firstFrame: 5
-      lastFrame: 25
-      wrapMode: 1
+      lastFrame: 15
+      wrapMode: 4
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

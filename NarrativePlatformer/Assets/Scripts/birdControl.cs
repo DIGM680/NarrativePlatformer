@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class birdControl : MonoBehaviour {
@@ -34,7 +34,7 @@ public class birdControl : MonoBehaviour {
 			pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			pos.z = 0;
 			sphere.transform.position = Vector3.MoveTowards(sphere.transform.position, pos, outSpeed);
-			pos.z = pos.z-5.74f;
+			pos.z = pos.z-1.74f;
 			bird.transform.position = Vector3.MoveTowards(bird.transform.position, pos, outSpeed);
 		} 
 		//reverse if not on
