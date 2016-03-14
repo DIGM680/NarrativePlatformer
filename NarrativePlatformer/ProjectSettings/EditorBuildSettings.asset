@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/scenes/oldScenes/Seperation_Test_Scene_v1.unity
   - enabled: 1
+    path: Assets/scenes/titleScreen.unity
+  - enabled: 1
     path: Assets/scenes/level_1.unity
   - enabled: 1
     path: Assets/scenes/Level2.unity
