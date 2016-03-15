@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\deathBox.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\Scripts\openingFade.cs" />
+     <Compile Include="Assets\Scripts\particleTimer.cs" />
      <Compile Include="Assets\Scripts\platformRevealer.cs" />
      <Compile Include="Assets\Scripts\pullFromBackground.cs" />
      <Compile Include="Assets\Scripts\randomRotator.cs" />
