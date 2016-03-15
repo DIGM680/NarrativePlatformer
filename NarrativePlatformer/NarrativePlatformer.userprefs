@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\DoubleSidedMat.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shihong_asset\PlayMaker Unity 2D\Components\PlayMakerUnity2DProxy.cs">
     <Files>
-      <File FileName="Assets\Shaders\DoubleSidedMat.shader" Line="49" Column="2" />
+      <File FileName="Assets\Shihong_asset\PlayMaker Unity 2D\Components\PlayMakerUnity2DProxy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\DoubleSidedMat.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
