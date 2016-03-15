@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &107032
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -33,9 +33,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &186148
+--- !u!1 &171318
 GameObject:
   m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 472210}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &186148
+GameObject:
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -74,12 +89,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107032}
-  m_LocalRotation: {x: -0.0000015348197, y: -0.7071068, z: -0.7071068, w: 0.0000015571715}
-  m_LocalPosition: {x: -1.038, y: -1.13, z: -2.38}
-  m_LocalScale: {x: 0.031746622, y: 0.0034901486, z: 0.038661916}
+  m_LocalRotation: {x: -0.00000153482, y: -0.7071068, z: -0.7071068, w: 0.0000015571715}
+  m_LocalPosition: {x: -1.42, y: -1.48, z: -3.606}
+  m_LocalScale: {x: 0.029360466, y: 0.0034901486, z: 0.038661916}
   m_Children: []
-  m_Father: {fileID: 499666}
-  m_RootOrder: 1
+  m_Father: {fileID: 472210}
+  m_RootOrder: 2
 --- !u!4 &471086
 Transform:
   m_ObjectHideFlags: 1
@@ -87,10 +102,24 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186148}
   m_LocalRotation: {x: 0.7071068, y: 2.842171e-14, z: 2.842171e-14, w: 0.7071067}
-  m_LocalPosition: {x: 1.0187318, y: -1.18, z: -3.6114388}
-  m_LocalScale: {x: 0.047667783, y: 0.0049967584, z: 0.047667768}
+  m_LocalPosition: {x: 0.32000017, y: -1.31, z: -3.6}
+  m_LocalScale: {x: 0.038910028, y: 0.004078729, z: 0.038910013}
+  m_Children: []
+  m_Father: {fileID: 472210}
+  m_RootOrder: 0
+--- !u!4 &472210
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 471086}
   - {fileID: 473286}
+  - {fileID: 401532}
   m_Father: {fileID: 499666}
   m_RootOrder: 0
 --- !u!4 &473286
@@ -99,12 +128,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107294}
-  m_LocalRotation: {x: 0.7071068, y: 2.842171e-14, z: 2.842171e-14, w: 0.7071067}
-  m_LocalPosition: {x: -42, y: 0, z: 3.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 1, y: 4.0194366e-14, z: 4.0194366e-14, w: -0.00000014901163}
+  m_LocalPosition: {x: -1.2130551, y: -1.702991, z: -3.6}
+  m_LocalScale: {x: 0.038910028, y: 0.03891001, z: 0.0040787286}
   m_Children: []
-  m_Father: {fileID: 471086}
-  m_RootOrder: 0
+  m_Father: {fileID: 472210}
+  m_RootOrder: 1
 --- !u!4 &499666
 Transform:
   m_ObjectHideFlags: 1
@@ -112,11 +141,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.9727154, y: 3.1694207, z: 3.88}
+  m_LocalPosition: {x: -4.9727154, y: 3.1694207, z: 0.97}
   m_LocalScale: {x: 1.2382843, y: 1.2382845, z: 1.2382845}
   m_Children:
-  - {fileID: 471086}
-  - {fileID: 401532}
+  - {fileID: 472210}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!23 &2392216
@@ -196,9 +224,9 @@ BoxCollider2D:
   m_Material: {fileID: 6200000, guid: ee655c72c5f1a734899709885d0b6823, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 20.683477, y: -1.6591699}
+  m_Offset: {x: 19.111813, y: -1.659171}
   serializedVersion: 2
-  m_Size: {x: 42.367016, y: 4.318358}
+  m_Size: {x: 43.414776, y: 4.318358}
 --- !u!82 &8265546
 AudioSource:
   m_ObjectHideFlags: 1
@@ -286,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   justOnce: 0
   completed: 0
-  obj: {fileID: 186148}
+  obj: {fileID: 171318}
 --- !u!135 &13571876
 SphereCollider:
   m_ObjectHideFlags: 1

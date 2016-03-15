@@ -679,7 +679,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>C:/Users/Joe/Desktop/NarrativePlatformer/NarrativePlatformer/NarrativePlatformer/Assets/Shihong_asset/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>C:/Users/Alex/Desktop/NarrativePlatformer/NarrativePlatformer/Assets/Shihong_asset/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
